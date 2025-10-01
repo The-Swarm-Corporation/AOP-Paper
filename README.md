@@ -51,32 +51,6 @@ AOP servers expose agents as MCP tools. Clients discover agents through registry
 3. **Invocation**: Clients call agents through standardized interfaces
 4. **Clustering**: Servers federate into hierarchical clusters for global scale
 
-## Technical Highlights
-
-### Agent-to-Tool Transformation
-
-AOP converts agents into MCP tools with:
-- Unique identifiers and descriptions
-- JSON Schema input/output validation
-- Configurable timeouts and retry logic
-- Comprehensive error handling
-
-### Hierarchical Clustering
-
-Like DNS zones, AOP organizes agents in hierarchical clusters:
-- Distributed zones manage agent subsets
-- Recursive query forwarding across clusters
-- Multi-level caching for performance
-- Gossip protocol for state synchronization
-
-## Technology Stack
-
-- FastMCP (Anthropic's MCP server)
-- Python asyncio
-- JSON Schema validation
-- HTTP/SSE transport
-- Structured logging
-
 ## Use Cases
 
 - **Multi-organization collaboration**: Agents from different companies working together
