@@ -7,6 +7,8 @@
 
 The Agent Orchestration Protocol (AOP) enables AI agents to discover and collaborate with each other across organizational boundaries. Built on Anthropic's Model Context Protocol (MCP), AOP creates a DNS-like registry system for agents, making them discoverable and callable as standardized tools.
 
+[Full paper link](aop.pdf)
+
 ## The Problem
 
 Today's AI agents are isolated. A data analysis agent in one organization can't discover or work with a writing agent in another, despite their complementary capabilities. This prevents the collaborative networks needed to unlock the full potential of multi-agent AI.
