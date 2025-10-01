@@ -1,6 +1,7 @@
 # Agent Orchestration Protocol (AOP)
 
-> A distributed framework for large-scale multi-agent collaboration
+> Agent Orchestration Protocol (AOP): A Distributed Framework for Large-Scale Multi-Agent Collaboration
+
 
 ## Overview
 
